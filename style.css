@@ -1,8 +1,6 @@
 body {
-  
   font-family: viga;
   background-color: #237514;
-  
 }
 
 * {
@@ -12,7 +10,6 @@ body {
   outline: none;
   border: none;
   text-decoration: none;
- 
 }
 
 /* Navbar */
@@ -20,18 +17,15 @@ body {
 .navbar {
   text-decoration: none;
   border-bottom: 1px solid #2bb81568;
-
 }
 
- .navbar .navbar-brand {
-   padding: 0 8%;
-
- }
-
+.navbar .navbar-brand {
+  padding: 0 8%;
+}
 
 .navbar .navbar-nav .nav-item a {
   font-family: Montserrat;
-  
+
   color: #fff;
   padding: 1rem 1% 0.3rem;
   text-shadow: 1px 1px 3px rgba(15, 15, 19, 0.997);
@@ -102,19 +96,18 @@ body {
   margin-top: 1rem;
   font-weight: 100;
   color: #fff;
-  
 }
 
 /* Text Panel */
 
 .text-panel {
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
-    border-radius: 3px;
-    margin-top: 300px;
-    margin-bottom: 200px;
-    background-color: rgb(13, 150, 13);
-    z-index: 1;
-  }
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  margin-top: 300px;
+  margin-bottom: 200px;
+  background-color: rgb(13, 150, 13);
+  z-index: 1;
+}
 
 .text-panel h3 {
   font-size: 2.5rem;
@@ -132,14 +125,11 @@ body {
 .text-panel p {
   margin: 20px 30px 50px;
   font-size: 1.3rem;
-  letter-spacing: 0.10rem;
+  letter-spacing: 0.1rem;
   text-align: justify;
   color: #fff;
   font-family: Montserrat;
-
 }
-
-
 
 /* Info Panel */
 
@@ -158,14 +148,11 @@ body {
 .info-panel p {
   margin: 20px 30px 50px;
   font-size: 1.3rem;
-  letter-spacing: 0.10rem;
+  letter-spacing: 0.1rem;
   text-align: justify;
   color: #fff;
   font-family: Montserrat;
-  
 }
-
-
 
 .info-panel h3 {
   font-size: 2.5rem;
@@ -182,11 +169,10 @@ body {
 .info-panel p {
   margin: 20px 30px 50px;
   font-size: 1.3rem;
-  letter-spacing: 0.10rem;
+  letter-spacing: 0.1rem;
   text-align: justify;
   color: #fff;
   font-family: Montserrat;
-  
 }
 
 section {
@@ -195,7 +181,7 @@ section {
 
 .container .row h1 {
   color: #fff;
-  
+
   text-shadow: 1px 1px 3px rgba(15, 15, 19, 0.997);
   font-size: 3.2rem;
 }
@@ -207,8 +193,6 @@ section {
 /* Program */
 .row .card h3 {
   font-size: 1.98rem;
-  
-  
 }
 
 .row .card span {
@@ -217,7 +201,16 @@ section {
 
 .row .card a {
   font-size: 1.2rem;
-  
+  background-color: #39e11b;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(15, 15, 19, 0.777);
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.375);
+}
+
+.row .card a:hover {
+  background-color: #fff;
+  color: rgb(13, 150, 13);
+  text-shadow: none;
 }
 
 /* Kontak */
@@ -231,25 +224,16 @@ footer .sosials a:hover {
   color: #39e11b;
 }
 
-
-
-
-
 /* sidebar */
 
 @media (max-width: 991px) {
   .sidebar {
     background-color: rgba(7, 116, 41, 0.631);
     backdrop-filter: blur(15px);
-
-
-
   }
-
 
   .navbar .navbar-brand {
     padding: 0 5%;
-
   }
 
   .navbar .navbar-brand img {
@@ -257,11 +241,9 @@ footer .sosials a:hover {
     height: 50px;
   }
 
-
   .navbar .navbar-nav a {
     display: inline-block;
   }
-
 
   .hero .content h1 {
     font-size: 2.8em;
@@ -269,26 +251,22 @@ footer .sosials a:hover {
 
   .hero .content p {
     font-size: 1.3rem;
-
   }
 
-.text-panel {
-  
-  margin-top: 200px;
-  margin-bottom: 10px;
-  
-}
+  .text-panel {
+    margin-top: 200px;
+    margin-bottom: 10px;
+  }
 
-.text-panel h3 {
+  .text-panel h3 {
     font-size: 2rem;
     margin-top: 50px;
     letter-spacing: 0.1rem;
-    }
-.text-panel p {
+  }
+  .text-panel p {
     font-size: 1.2rem;
     letter-spacing: normal;
-    }
-
+  }
 
   .info-panel {
     margin-top: -60px;
@@ -301,26 +279,23 @@ footer .sosials a:hover {
   .info-panel p {
     font-size: 1.2rem;
     letter-spacing: normal;
-    
-    
   }
 
   .hero {
     margin-top: -100px;
   }
 
-    .container .row h1 {
-      color: #fff;
-      text-shadow: 1px 1px 3px rgba(15, 15, 19, 0.997);
-      font-size: 2.5rem;
-    }
-  
-    .container .row h1 span {
-      color: #39e11b;
-    }
+  .container .row h1 {
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(15, 15, 19, 0.997);
+    font-size: 2.5rem;
+  }
+
+  .container .row h1 span {
+    color: #39e11b;
+  }
 
   footer p {
     font-size: 1.2rem;
   }
-
 }
